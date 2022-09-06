@@ -13,6 +13,7 @@ from scipy.linalg import expm, norm
 import pathlib
 
 from util.pointcloud import get_matching_indices, make_open3d_point_cloud
+from util.trajectory import read_trajectory
 import lib.transforms as t
 
 import MinkowskiEngine as ME
